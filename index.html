@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+
+    <script>
+        $(document).ready(function() {
+            $("#flip").click(function() {
+                $("#panel").slideToggle("slow");
+            });
+        })
+        $(document).ready(function() {
+            $("#flip1").click(function() {
+                $("#panel1").slideToggle("slow");
+            });
+        })
+        $(document).ready(function() {
+            $("#flip2").click(function() {
+                $("#panel2").slideToggle("slow");
+            });
+        })
+        $(document).ready(function() {
+            $("#flip3").click(function() {
+                $("#panel3").slideToggle("slow");
+            });
+        })
+        $(document).ready(function() {
+            $("#flip4").click(function() {
+                $("#panel4").slideToggle("slow");
+            });
+        })
+        $(document).ready(function() {
+            $(".deleteMe").on("click", function() {
+                $(this).closest("li").remove();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class=header>
+
+        <h1>Click to Select a Roll</h1>
+
+    </div>
+
+    <div class="container">
+
+        <div id="flip">
+            <h3>Godzilla Roll
+                <h3>
+        </div>
+
+
+        <div id="panel" class="godzilla circleBase">
+            <ul>
+                <h2>- Fresh ingredients -</h2>
+                <div class trashcontainer1>
+
+                    <li>Spicy Crab
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                </div>
+                <li>Avacado
+                    <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                </li>
+                <li>Cucumber
+                    <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                </li>
+                <li>Soy Paper
+                    <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                </li>
+
+                <div class="spacer"></div>
+
+                <div class="btn"><button>Place Order</button></div>
+
+                <div class="pic1 circleBase">
+                    <div class="pic11 circleBase">
+
+
+                    </div>
+
+            </ul>
+
+            </div>
+
+            <div id="flip1">
+                <h3>Baby Dragon Roll
+                    <h3>
+            </div>
+
+
+            <div id="panel1" class="dragon circleBase">
+                <ul>
+                    <h2>- Fresh ingredients -</h2>
+                    <li>Spicy Salmon
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Tempura Flakes
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Eel Sauce
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Spicy Mayo
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <div class="spacer"></div>
+
+                    <div class="btn"><button>Place Order</button></div>
+
+                    <div class="pic2 circleBase">
+                    </div>
+                </ul>
+
+            </div>
+
+            <div id="flip2">
+                <h3>All-Star Roll
+                    <h3>
+            </div>
+
+            <div id="panel2" class="eel circleBase">
+
+                <ul>
+                    <h2>- Fresh ingredients -</h2>
+                    <li>Shrimp Tempura
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Avacado
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Spicy Mayo
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Tempura Flakes
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <div class="spacer"></div>
+
+                    <div class="btn"><button>Place Order</button></div>
+
+                    <div class="pic3 circleBase">
+                    </div>
+
+                </ul>
+
+            </div>
+
+            <div id="flip3">
+                <h3>Dynamite Roll
+                    <h3>
+            </div>
+
+            <div id="panel3" class="tuna circleBase">
+                <ul>
+                    <h2>- Fresh ingredients -</h2>
+                    <li>Blackened Tuna
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>White Tuna
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Jalapeno Pepper
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Soy Paper
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <div class="spacer"></div>
+
+                    <div class="btn"><button>Place Order</button></div>
+
+                    <div class="pic4 circleBase">
+                    </div>
+
+                </ul>
+
+            </div>
+            <div id="flip4">
+                <h3>Tiger Roll
+                    <h3>
+            </div>
+
+            <div id="panel4" class="salmon circleBase">
+                <ul>
+                    <h2>- Fresh ingredients -</h2>
+                    <li>Spicy YellowTail
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Mango
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Ginger
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <li>Eel Sauce
+                        <div class='deleteMe'><img src="rsz_trash.png" /></div>
+                    </li>
+                    <div class="spacer"></div>
+                    <div class="btn"><button>Place Order</button></div>
+
+                    <div class="pic5 circleBase">
+                    </div>
+
+                </ul>
+
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>
