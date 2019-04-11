@@ -1,0 +1,198 @@
+body {
+
+    background-image: url("https://images.homedepot-static.com/productImages/5174a55e-a5fa-4c51-9e64-f756f4280de8/svn/iron-wood-trafficmaster-luxury-vinyl-planks-72217-0-64_1000.jpg")
+}
+.header {
+}
+h1 {
+    color: black;
+    font-style: italic
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+    margin: 2px;
+    border-raius: 5px;
+    padding: 5px;
+    color:white;
+}
+
+.deleteMe {
+    float: right;
+}
+
+.container {
+    margin: auto;
+    overflow-y: scroll;
+height: XXXpx;
+    width:300px;
+    height:600px;
+    background-image: url("http://s1.1zoom.net/big0/607/Seafoods_Sushi_Fish_Cutting_board_From_above_521546_1280x853.jpg")
+}
+
+.header {
+    text-align: center
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-style: italic
+}
+
+.pic1 {
+    position: absolute;
+  top: 80px;
+  right: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("https://images.agoramedia.com/everydayhealth/cms/the-best-sushi-rolls-article.jpg")
+}
+
+
+.pic2 {
+       position: absolute;
+  top: 80px;
+  right: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("https://oneatlanticevents.com/wp-content/uploads/2017/05/one_atlantic_sushi.jpg")
+}
+
+.pic3 {
+       position: absolute;
+  top: 80px;
+  right: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("http://2xs0so2vt22q1niww1rw0cm7.wpengine.netdna-cdn.com/wp-content/uploads/bfi_thumb/FeaturedImage_600x600-355xxcen5oxzml6fsu7k7e.jpg")
+}
+
+.pic4 {
+       position: absolute;
+  top: 80px;
+  right: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("https://i.pinimg.com/236x/92/cf/90/92cf906ec5ae0aa598a3b3ca22d81359--crab-rolls-salmon-sushi-rolls.jpg")
+}
+
+
+.pic5 {
+       position: absolute;
+  top: 80px;
+  right: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("https://emilykylenutrition.com/wp-content/uploads/2016/03/Banana-Sushi-by-Emily-Kyle-Nutrition-3-200x200.png")
+}
+
+
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    /* remove if you don't care about IE8 */
+}
+
+
+
+
+
+.btn {
+    height: 50px;
+    text-align: center
+}
+
+.spacer {
+    height: 50px;
+}
+
+
+button {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #666666;
+}
+
+button:hover {
+    border: 1px solid #666666;
+    background: #666666;
+    color: #ffffff;
+}
+
+.godzilla {
+}
+
+#panel,
+#flip {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel {
+    padding: 2px;
+    display: none;
+   
+    
+}
+
+#panel1,
+#flip1 {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel1 {
+    padding: 2px;
+    display: none;
+}
+
+#panel2,
+#flip2 {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel2 {
+    padding: 2px;
+    display: none;
+}
+
+#panel3,
+#flip3 {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel3 {
+    padding: 2px;
+    display: none;
+}
+
+#panel4,
+#flip4 {
+    padding: 5px;
+    text-align: center;
+}
+
+#panel4 {
+    padding: 2px;
+    display: none;
+}
+
+.trashcontainer1 {
+    flex-direction: row;
+    display:flex;
+    justify-content:center;
+    
+}
